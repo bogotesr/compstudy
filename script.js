@@ -87,10 +87,9 @@ const questions = [
     ]
   },
   {
-    question: 'Are you subscribed to bogotesr on YouTube?',
+    question: 'Are you EPIC?',
     answers: [
-      { text: 'Yes', correct: true },
-      { text: 'No', correct: false }
+      { text: 'Yes', correct: true }
     ]
   },
   {
@@ -105,9 +104,9 @@ const questions = [
   {
     question: 'What is the basic economic problem?',
     answers: [
-      { text: 'Humans have unlimited wants and needs with unlimited recourses.', correct: false },
-      { text: 'Humans have limited wants and needs with unlimited recourses.', correct: false },
-      { text: 'Humans have unlimited wants and needs with limited recourses.', correct: true },
+      { text: 'Humans have unlimited wants and needs with unlimited resources.', correct: false },
+      { text: 'Humans have limited wants and needs with unlimited resources.', correct: false },
+      { text: 'Humans have unlimited wants and needs with limited resources.', correct: true },
       { text: 'I don\'t know', correct: false }
     ]
   },
@@ -126,6 +125,24 @@ const questions = [
       { text: 'Cheese', correct: true },
       { text: 'Waitress', correct: false },
       { text: 'Ice cream scooper (human)', correct: false },
+      { text: 'I don\'t know', correct: false }
+    ]
+  },
+  {
+    question: 'What was the purpose of the encomienda system?',
+    answers: [
+      { text: 'Provided religous control because the Spanish crown appointed local officials.', correct: false },
+      { text: 'Was intended to create mutually beneficial relations bewtween the Europeans and natives.', correct: true },
+      { text: 'Was used by Spain to justify conquest.', correct: false },
+      { text: 'I don\'t know', correct: false }
+    ]
+  },
+  {
+    question: 'What is an endothermic reaction?',
+    answers: [
+      { text: 'A reaction that does not require heat.', correct: false },
+      { text: 'A reaction that sometimes requires heat.', correct: false },
+      { text: 'A reaction that requires heat.', correct: false },
       { text: 'I don\'t know', correct: false }
     ]
   },
