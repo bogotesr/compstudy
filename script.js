@@ -142,7 +142,7 @@ const questions = [
     answers: [
       { text: 'A reaction that does not require heat.', correct: false },
       { text: 'A reaction that sometimes requires heat.', correct: false },
-      { text: 'A reaction that requires heat.', correct: false },
+      { text: 'A reaction that requires heat.', correct: true },
       { text: 'I don\'t know', correct: false }
     ]
   },
