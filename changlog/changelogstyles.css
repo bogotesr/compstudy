@@ -1,0 +1,7 @@
+*, * ::before, *::after {
+    font-size: 30px;
+}
+
+.tenth-jan {
+    display: flex;
+}
